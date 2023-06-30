@@ -1,0 +1,69 @@
+/* 로컬글꼴 연결법 */
+/* 웹글꼴 연결법 
+    구글폰트접속->글꼴선택->link or import 글꼴 주소가져오기 ->font-family글꼴연결*/
+
+dl {
+    font-size:2rem; /* 32px */
+    font-size:3rem;
+}
+dl dt {
+    background-color: rgba(0,255,255,0.4);
+    font-size:1.5rem;
+    color:rgba(0,0,0,0.5);
+}
+dl dt em {
+    display: none;
+    background-color: #000; color:#fff
+}
+dl dd {
+    background-color: yellowgreen;
+}
+dl dd span{
+    display:block; 
+    /* display 로 시작하는 태그는 디스플레이상으로만 적용 
+        display:block; 블록처리 
+        display: none; 보이지않음 (ex네이버 로그인창에 아이디를 쓰지않고 비밀번호만 쓸 경우 아이디를 입력하세요가 뜨는 경우와 레전드 처리
+        display: inline; 인라인처리 */
+    background-color: #000; color:#fff
+}
+.f12 {
+    background-color: aqua;    
+    display: inline;
+    word-spacing: 0.05em;
+    letter-spacing: 0.02em; /* -2% */
+    font-size:1.25rem;
+    line-height: 1.5; /* 1.0==100% */
+    /* = line-height:30px; */
+    /* line-height를 px로 작성할 경우는 font-size의 px값 기준으로 값이 결정된다. 
+        font-size의 px값 기준 설정이 불편할 경우 상대값 기준으로 line-height을 처리한다.(100%)기준 */
+        
+}
+.overflow {
+
+    background-color: rgba(0,0,0,0.2);
+    font-size:1.25rem;
+    width:400px;
+    overflow:hidden; /* 넘친영역을 숨겨라 */
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    /* 넘친 영역을 숨기는 ...은 overflow:hidden; white-space:nowrap; text-overflow:ellipsis; 모두 사용해야 적용됨*/
+}
+#a {
+    background-color: rgb(96, 96, 133);
+    width:500px; height: 500px;
+}
+#a #b {
+    padding:20px 10px 0;
+    margin:50px 10px;
+
+    background-color: rgb(245, 245, 115);
+    width:50%; height: 300px;
+    /* 자식요소의 크기를 입력 시에는 반드시 부모 요소보다 작거나 같아야 한다. 
+    너비는 %로 높이는 px로 많으씀*/
+    font-size:5rem;
+    border: 5px solid coral; /* 테두리 */
+    
+    
+    /* 패딩 요소의 안쪽 공간이 늘어남 (
+        마진 떨어트림 */
+}

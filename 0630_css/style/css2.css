@@ -1,0 +1,42 @@
+main {
+    background-color: rgba(0,0,0,0.8);
+    padding:50px;  /* 상하좌우 전부다 50px */
+}
+main .box {
+    width:200px; height:200px;
+    font-size:4rem;
+    border:5px dotted #fff; /* 점선모양 */
+    border-radius:50%; 
+    /* 모서리 둥글게 (원을 만들고 싶으며녀 너비 값의 반 & 50% */
+    text-align: center;
+    line-height: 200px; 
+    /* 높이값과 같은값을 적으면 수직중앙 
+        line-height값과 height값을 동일하게 작성하면 요소가 수직 중앙으로 온다(1행일 경우 가능) 이미지도 가능
+        2행일 경우 padding-top으로 눈대중으롤 맞춰야함*/
+}
+main .a {
+    float:left;
+    /* padding(안쪽여백)추가 시 실제 크기에 변화를 주지 않는다 */
+    /* box-sizing:border-box; -높이값 너비값을 따로 주지 않아도 알아서 상자의 크기가 같아진다 */
+    box-sizing: border-box;
+   /*  padding-right: 50px; */
+    /* width:150px; */
+    background-color: rgb(247, 148, 123);
+}
+main .b {
+    float:left;
+    box-sizing: border-box;
+    /* padding-top:30px; */
+    /* height:170px; */
+    background-color: rgb(250, 177, 81);
+    font-size:3rem;
+}
+
+main .c {
+    float:right;
+    box-sizing: border-box;
+    /* padding:10px 20px; /* 상하10px 좌우20px */ */
+    /* width:160px;
+    height:180px; */
+    background-color: rgb(65, 250, 179);
+}

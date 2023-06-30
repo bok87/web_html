@@ -1,0 +1,114 @@
+header {}
+header #h_top_bg {}
+header #h_top_bg .h_top {}
+header #h_top_bg .h_top .top_left {}
+header #h_top_bg .h_top .top_right {}
+header #h_top_bg .h_top .top_right a {}
+header #h_btm_bg {}
+header #h_btm_bg .h_btm {}
+header #h_btm_bg .h_btm h1 {}
+header #h_btm_bg .h_btm h1 a {}
+header #h_btm_bg .h_btm h1 a img {}
+header #h_btm_bg .h_btm nav {}
+header #h_btm_bg .h_btm nav a {}
+header #h_btm_bg .h_btm .all_nav {}
+header #h_btm_bg .h_btm .all_nav .fa {}
+header #h_btm_bg .h_btm .all_nav span{}   /* ! */
+#ri_bg {}
+#ri_bg .bnr_area {}
+#ri_bg .bnr_area p {}
+#ri_bg .bnr_area h1 {}
+#ri_bg .bnr_area #searchFrm {}
+#ri_bg .bnr_area #searchFrm fieldset {}
+#ri_bg .bnr_area #searchFrm fieldset legend {}
+#ri_bg .bnr_area #searchFrm fieldset input {}
+#ri_bg .bnr_area #searchFrm fieldset #serchBtn {} /* ! */
+#r2_bg {}
+#r2_bg .menu_area {}
+#r2_bg .menu_area a {}
+#r3_bg {}    /* 뺴먹음 */
+#r3_bg .r3_area_wrap {}
+#r3_bg .r3_area_wrap .notice_wrap {}
+#r3_bg .r3_area_wrap .notice_wrap .top {}
+#r3_bg .r3_area_wrap .notice_wrap .top h1 {}
+#r3_bg .r3_area_wrap .notice_wrap .top h1 .right {}
+#r3_bg .r3_area_wrap .notice_wrap .top h1 .right a {}
+#r3_bg .r3_area_wrap .notice_wrap .btm {}
+#r3_bg .r3_area_wrap .notice_wrap .btm li {}
+#r3_bg .r3_area_wrap .notice_wrap .btm li a {}
+#r3_bg .r3_area_wrap .notice_wrap .btm li a span {}
+#r3_bg .r3_area_wrap .popup_wrap {}
+#r3_bg .r3_area_wrap .popup_wrap .top {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right .bnr1 {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right .bnr2 {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right .bnr3 {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right .bnr4 {}
+#r3_bg .r3_area_wrap .popup_wrap .top h1 .right .pause {} /* a로만함 */
+#r3_bg .r3_area_wrap .popup_wrap .btm {}
+#r3_bg .r3_area_wrap .popup_wrap .btm a {}
+#r3_bg .r3_area_wrap .popup_wrap .btm a .popup1 {}
+#r3_bg .r3_area_wrap .popup_wrap .btm a .popup2 {}
+#r3_bg .r3_area_wrap .popup_wrap .btm a .popup3 {}
+#r3_bg .r3_area_wrap .popup_wrap .btm a .popup4 {}  /* a로만함 */
+#r3_bg .r3_area_wrap .event_wrap {}
+#r3_bg .r3_area_wrap .event_wrap .top {}
+#r3_bg .r3_area_wrap .event_wrap .top h1 {}
+#r3_bg .r3_area_wrap .event_wrap .top h1 .right {}
+#r3_bg .r3_area_wrap .event_wrap .top h1 .right .more {} /* 클래스명으로 안적고 a */
+#r3_bg .r3_area_wrap .event_wrap .btm {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title h2 {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title h2 .fa {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title h2 .fa > span {}   /* 자식 스팬 꺽쇄*/
+#r3_bg .r3_area_wrap .event_wrap .btm .title h2 .fa span span {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title p {}
+#r3_bg .r3_area_wrap .event_wrap .btm .title span {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date thead {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date thead tr {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date thead tr td {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr td {}
+#r3_bg .r3_area_wrap .event_wrap .btm .event_date tbody tr .event {}
+#r4_bg {} /* 뺴먹음 */
+#r4_bg .r4_area_wrap {}
+#r4_bg .r4_area_wrap .bk_left {}
+#r4_bg .r4_area_wrap .bk_left .top {}
+#r4_bg .r4_area_wrap .bk_left .top h1 {}
+#r4_bg .r4_area_wrap .bk_left .top h1 .right {}
+#r4_bg .r4_area_wrap .bk_left .top h1 .right a {}
+#r4_bg .r4_area_wrap .bk_left .book_contents {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img span {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_img img {}
+#r4_bg .r4_area_wrap .bk_left .book_contents a .book_name {}
+#r4_bg .r4_area_wrap .bk_right {}
+#r4_bg .r4_area_wrap .bk_right .top {}
+#r4_bg .r4_area_wrap .bk_right .top h1 {}
+#r4_bg .r4_area_wrap .bk_right .top h1 .right {}
+#r4_bg .r4_area_wrap .bk_right .top h1 .right a {}
+#r4_bg .r4_area_wrap .bk_right .book_contents {}
+#r4_bg .r4_area_wrap .bk_right .book_contents a {}
+#r4_bg .r4_area_wrap .bk_right .book_contents a img {}
+#r4_bg .r4_area_wrap .bk_right .book_contents p {}
+#r4_bg .r4_area_wrap .bk_right .book_contents p em {}
+#r4_bg .r4_area_wrap .bk_right .book_contents p span {}
+footer {}
+footer .f_top_bg {}
+footer .f_top_bg .f_top {}
+footer .f_top_bg .f_top a {}
+footer .f_top_bg .f_top a img {}
+footer .f_btm_bg {}
+footer .f_btm_bg .f_btm {} 
+footer .f_btm_bg .f_btm .btm_menu {}
+footer .f_btm_bg .f_btm .btm_menu a {}
+footer .f_btm_bg .f_btm .txt {}
+footer .f_btm_bg .f_btm .f_logo {}
+footer .f_btm_bg .f_btm .f_logo img {}
+
+나는 96개.... 빼먹은게 많다
+111개 나옴
