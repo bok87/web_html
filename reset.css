@@ -1,6 +1,7 @@
 * {box-sizing: border-box;}  /* 박스사이즈 */
 
-/* ->웹글꼴 (import) 붙여넣는 곳 <style>는 지운다 */
+/*local or web(@inport) 글꼴 작성위치
+ ->웹글꼴 (import) 붙여넣는 곳 <style>는 지운다 */
 @import url();
 /* 로컬글꼴 font-face 
     font-face로 연결하려는 글꼴의 글꼴명, 글꼴의 경로를 먼저 작성해야한다!*/
@@ -36,7 +37,6 @@ input{outline:none; border:0;}
 
 
 /* 글자 말줌임 CSS
-
 overflow:hidden; 
 white-space:nowrap;
 text-overflow:ellipsis; */
