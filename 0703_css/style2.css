@@ -1,0 +1,112 @@
+body {}
+
+/* header */
+header {
+    background-color:rgb(156, 247, 175);
+    width: 1200px;
+    height: 92px;
+    margin: 0 auto;
+}
+header h1 {
+    width: 60px ;
+    height:70px;
+    float: left;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 a img {
+    width:100%;
+}
+/* header nav */
+header nav {
+    background-color: rgb(199, 153, 245);
+    float:left;
+    margin: 39px 0 0 234px;
+}
+header nav ul {
+    margin-right:20px;
+}
+header nav ul li {    
+    float:left;
+}
+header nav ul li a {    
+    font-size: 1.2rem;
+    padding-right :40px;
+}
+header nav ul li:last-child a {padding-right: 0;}
+
+header nav ul .active {
+}
+header nav ul .active a {
+    color:#36B4E5;
+}
+
+/* header lnb */
+header .lnb {
+    background-color:rgb(252, 179, 85);
+    float:right;
+    margin:39px 20px 0 0;
+}
+header .lnb li {
+    float:left;
+    margin-right: 20px;
+}
+header .lnb li:last-child {margin-right: 0;}
+header .lnb li a {
+    font-size: 1.2rem;
+}
+header .lnb li span {
+    background-color: #aaa;
+    width: 1px;
+    height: 13px;
+    
+}
+
+/* main */
+main {}
+main .breadcrumbs_bg {
+}
+main .breadcrumbs_bg .breadcrumbs {
+
+}
+main .breadcrumbs_bg .breadcrumbs a {
+    float:right;
+}
+main .breadcrumbs_bg .breadcrumbs span {}
+
+/* main - cnts1 */
+main .contents1 {}
+main .contents1 h1 {}
+main .contents1 p {}
+
+/* main - cnts2 */
+main.c2_bg {}
+main.c2_bg .contents2 {}
+main.c2_bg .contents2 p {}
+
+/* main - cnts3 */
+main .contents3 {}
+main .contents3 h2 {}
+main .contents3 h2 p {}
+
+/* main - cnts4 */
+main .c4_bg {}
+main .c4_bg .contents4 {}
+main .c4_bg .contents4 h1 {}
+main .c4_bg .contents4 h1 ul {}
+main .c4_bg .contents4 h1 ul li {}
+main .c4_bg .contents4 h1 ul li h3 {}
+main .c4_bg .contents4 h1 ul li p {}
+
+/* footer */
+footer {}
+footer .f_top {}
+footer .f_top .fnb {}
+footer .f_top .fnb li {}
+footer .f_top .fnb li a {}
+footer .f_top .site {}
+footer .f_top .site li {}
+footer .f_top .site li a {}
+footer .f_btm {}
+footer .f_btm address {}
+footer .f_btm p {}
