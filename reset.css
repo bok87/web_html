@@ -35,6 +35,11 @@ input{outline:none; border:0;}
 /* table, table * {border:2px solid black;} */
 
 
+/*         table, th, td {border:2px solid black;border-collapse: collapse;}
+        tr, th, td {padding:10px;} */
+        /* #t, tr, th, td {border:2px solid black;border-collapse: collapse;} */
+
+
 /* 글자 말줌임 CSS
 overflow:hidden; 
 white-space:nowrap;
