@@ -1,0 +1,22 @@
+#t {text-align: center;}
+#t thead {
+    height: 50px;
+    
+}
+#t thead tr {
+}
+#t thead tr th:nth-child(1) {
+    background-color: yellow;
+    width:100px;}
+#t thead tr th:nth-child(2) {
+    width:100px;}
+
+#t tbody {}
+#t tbody tr {
+    height: 50px;}
+#t tbody tr:nth-child(1) td:nth-child(2) {
+    background-color: pink}
+#t tbody tr:nth-child(2) td:nth-child(1) {
+    background-color: aqua}
+#t tbody tr:nth-child(3) td:nth-child(2) {
+    background-color: greenyellow}

@@ -1,0 +1,8 @@
+.test {background-color: gray;}
+.test h1 {background-color: yellow;}
+.test dl:nth-child(2) {background-color: black;}
+.test dl:nth-child(2) dt {background-color:green;}
+.test dl:nth-child(2) dd {background-color:aqua;}
+.test dl:nth-child(3) {background-color: pink;}
+.test dl:nth-child(3) dt {background-color:skyblue;}
+.test dl:nth-child(3) dd {background-color:lime;}
