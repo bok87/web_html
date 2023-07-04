@@ -32,7 +32,7 @@ ul,ol,li {list-style:none;}
 a {color:black}
 input{outline:none; border:0;}
 
-
+/* table, table * {border:2px solid black;} */
 
 
 /* 글자 말줌임 CSS
