@@ -1,0 +1,193 @@
+header nav, header h1, main .bnr_top .btm, main .contents, footer {
+    width:1300px; margin:0 auto;
+}
+/* header */
+header {
+    font-size:0.833rem;
+    letter-spacing: -0.02em;
+}
+header #h_top {
+    background-color: #ccc;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;    
+}
+header #h_top a {
+    font-weight: 700;
+    
+}
+header h1 {   
+    text-align: center;
+    margin-top: 40px;
+    /* margin: 40px 0 0 655px; */
+}
+header h1 a {
+    width: 130px; height: 19px;
+    
+}
+header h1 a img {
+    width:130px; height: 19px;       
+    display:inline-block;
+    
+}
+header #gnb {
+    float: right;
+    margin-bottom: 4px;
+    
+}
+header #gnb .gnb_user_left {
+    float:left;
+}
+header #gnb .gnb_user_left a {
+    margin-right: 15px;
+}
+header #gnb .gnb_user_right {
+    float:left;
+}
+header #gnb .gnb_user_right a {
+    margin-right: 15px;
+}
+header #gnb .gnb_user_right a img {}
+header #gnb p {
+    margin-right: 0;
+    float:left
+}
+header #gnb p a {
+    margin-left: 20px;
+}
+header #gnb p a img {}
+header p {
+    /* margin-right: 70px 171px 0 0;
+    float: right; */  
+    position: relative;
+}
+header p span{
+    display:inline-block;
+    width: 100px;height: 23px;
+    border: 1px solid #FF7F50;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 100px; top:25px;
+    
+    
+}
+header nav {
+    margin: 0 auto;
+    width: 1300px; height: 49px;
+    text-align: center;
+    margin-top: 70px;
+}
+header nav a {
+    margin:10px 15px;
+    display: inline-block;
+}
+/* aside*/
+aside {
+    position: fixed;
+    right: 0; top:30%;
+
+}
+aside a {
+    display:inline-block;
+    border:1px solid #aaa;
+    width: 30px; height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+}
+aside a img {width:80%;}
+/* main bnr */
+main .bnr_top {    
+    
+}
+main .bnr_top .top {
+}
+main .bnr_top .top a {}
+    
+main .bnr_top .top a img {
+    
+    width: 100%;
+}
+main .bnr_top .btm {
+    margin: 70px auto;
+    /* overflow:hidden;     */
+}
+main .bnr_top .btm a {  
+    width: 416px; height: 350px; 
+    display: block; 
+    float: left;
+    margin-right: 26px;
+}
+main .bnr_top .btm a:{}
+main .bnr_top .btm a:last-child {margin-right: 0;}
+main .bnr_top .btm a img {width: 100%;}
+/* main product */
+main .contents {
+    overflow:hidden;
+    margin-top: 70px;
+}
+main .contents h1{
+    font-weight: 700; text-align: center;
+    padding-bottom: 100px;
+}
+main .contents .product {
+    overflow: hidden;
+    width: 424px;}
+main .contents .product a {
+    
+}
+main .contents .product a img {width: 100%;}
+main .contents .product .price {}
+main .contents .product .price h2 {font-size: 0.833rem;}
+main .contents .product .price p {font-size: 0.833rem;}
+main .contents .product .price p:nth-child(4n) {
+    margin-right:0; font-size: 0.833rem;
+    color:#FF7F50 
+}
+main .contents .product .price p em {font-weight: 700; font-size: 1rem;}
+main .contents .product .price p span {font-size: 0.833rem;
+}
+
+main .contents .product .price p span > span {
+    background-color: #FF7F50;
+    width: 10px; height: 20px;
+    padding: 10px;
+}
+/* main bnr_btm */
+main .bnr_btm {
+    letter-spacing: -0.02em;
+    position: relative;
+}
+main .bnr_btm img {width: 100%;}
+main .bnr_btm .bnr_btm_sappun {
+    position: absolute;
+    right: 50%; top:50%; 
+    text-align: center;
+    display: block;
+}
+main .bnr_btm .bnr_btm_sappun a {
+    display: block; 
+    font-size: 2.074rem;  font-weight: 700; color: #fff;
+    text-align: center;
+}
+main .bnr_btm .bnr_btm_sappun p {
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px;
+    }
+/* footer */
+footer {
+    font-size: 0.833rem;
+    letter-spacing: -0.02em;
+    margin:50px auto;
+}
+footer .f_ {}
+footer .f_ a {
+    color:#aaa;
+    margin-right: 30px;
+}
+footer address {margin: 20px 0;}
