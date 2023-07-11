@@ -33,6 +33,7 @@ a {color:black}
 input{outline:none; border:0;}
 button {cursor:pointer; border:0;}
 fieldset {border:0;}
+/* HTML태그에선 의미적으로 존재하나 CSS디자인결과에서 숨겨지는 대상태그에 적용하는 공통클래스 skip */
 .skip {display:none;}
 
 
