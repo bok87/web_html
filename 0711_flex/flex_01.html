@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="./style/reset.css" rel="stylesheet">
+    <link href="./style/reset" rel="stylesheet">
+    <title>Document</title>
+<style>
+    #wrap {}
+    #wrap {}
+    #wrap h1 {}
+    #wrap .contents { /* container */
+        background: aqua;
+        /* flex 적용 전 필수준비사항!! 
+            부모 container에 flex 설정값 적용하기*/
+        display: flex;/* flex 적용 전 필수 준비사항 */
+        flex-direction: row;  /* 가로 */
+        /* flex-direction: row-reverse;  가로 역순 */
+        /* flex-direction: column;  세로 */
+        /* flex-direction: column-reverse;  세로 역순 */
+        flex-wrap: wrap; /* 줄바꿈 */
+        /* flex-wrap: mowrap;  기본값 줄바꿈 안됨 */
+        /* flex-wrap: wrap-reverse;  줄바꿈 역순 */
+        flex-flow: row wrap; /* 두속성을 한번에 사용 정렬방향/줄바꿈 */
+        /* justify-content: flex-end;역순이 안된다 */
+        /* justify-content: space-between;1,6를 양쪽끝에 먼저 배치하고 나머지 자동배치 */
+        justify-content: space-around;/* 아이템 분배를 먼저하고 남은 여백을 좌우에 둔다 */
+        /* justify-content:; 메인축 정렬2줄일때 아이템 배치 */
+        /* align-content 교차축2줄이상일떄 정렬 
+            메인축 방향 여유공간 있어야 정렬확인가능*/
+        align-content: flex-start; /* 교차축의 윗쪽으로 배치 */
+        align-content: flex-end; /* 교차축의 아래쪽으로 배치 */
+        align-content: flex-center; /* 교차축의 중간으로 배치 높이가 있어야함*/ 
+        align-items:center ;
+        height: 600px;    
+    }
+    #wrap .contents li {
+        background-color: palevioletred;
+        width:200px; height: 200px;
+        font-size: 3rem; border-radius: 20px;
+        text-align: center; line-height: 200px;
+    }
+    /* flex의 메인축, 교차축 개념 
+        container(부모) item(자식) 개념으로
+        item이 정렬된 방향이 메인측(main axis),
+        item이 가로지르는 방향이 교차축(cross axis),
+        교차축이 어렵다면 메인축의 반대방향이라 암기하기!
+        가변형이라 줄바꿈하려면 코드입력해야함*/
+</style>
+</head>
+<body>
+    <div id="wrap">
+        <section>
+            <h1>제목</h1>
+            <ul class="contents">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
