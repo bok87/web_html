@@ -102,3 +102,29 @@ html::-o-scrollbar-thumb:hover {background-color: #555;}
     position:absolute; left: 50%;
     transform:translateX(-50%);
     width:1920px; /* 절대크기값 */
+
+
+
+비디오 이미지로 스크롤
+const imgElem = document.querySelector('.container img');
+const videoImages = [];
+let totalImagesCount = 258;
+let progress;
+let currentFrame;
+function setImages() {//이미지 생성 함수 시작
+	for (let i = 1; i <= totalImagesCount; i++) {
+		let imgElem = document.createElement('img')
+		imgElem.src = `./images/${i}.jpg`;
+		videoImages.push(imgElem);
+	}
+}
+function init() {//스크롤 동작 함수 시작
+	window.addEventListener('scroll', function () {
+		progress = pageYOffset / (document.body.offsetHeight - window.innerHeight);
+		currentFrame = Math.round((totalImagesCount - 1) * progress);
+		imgElem.src = videoImages[currentFrame].src;
+	});
+}
+window.addEventListener('load', init);
+setImages();
+
